@@ -1,0 +1,6 @@
+/* Custom Divider style */
+.custom-divider {
+  height: 2px; /* Adjust the height as needed */
+  background-image: linear-gradient(to right, pink, blue, pink, blue); /* Gradient from pink to black */
+  margin: 16px 0; /* Adjust the margin as needed */
+}

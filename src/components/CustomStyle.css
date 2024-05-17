@@ -1,0 +1,29 @@
+@keyframes entrance-title {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes entrance-subtitle {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.entrance-title {
+  animation: entrance-title 0.5s ease-in-out;
+}
+
+.entrance-subtitle {
+  animation: entrance-subtitle 0.5s ease-in-out;
+}

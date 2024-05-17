@@ -1,0 +1,66 @@
+.shape-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  height: 350px;
+  border: 2px solid black; /* External border for container */
+  padding: 20px; /* Add padding for better spacing */
+  background-color: rgb(146, 214, 231);
+  border-radius: 10px;
+}
+
+.shape {
+  width: 110px;
+  height: 110px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+ }
+
+.square {
+  border-radius: 0;
+  background-color: blue;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: coral;
+}
+
+.ellipse {
+  border-radius: 50% / 50%;
+  height: 70px;
+  background-color: rgb(238, 74, 173);
+}
+
+.triangle{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(214, 243, 52);
+  position: relative;
+  clip-path: polygon(50% 0, 100% 100%, 0% 100%);
+}
+
+.rectangle {
+  width: 150px;
+  height: 80px; /* Adjust the height as needed */
+  background-color: red;
+}
+
+
+.rhombus {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(18, 180, 234);
+  transform: rotate(45deg);
+}
+.button-container {
+  display: flex;
+}
+
+.button-container button {
+  margin: 5px;
+  background-color: rgb(214, 243, 52);
+  height: 30px;
+  width: 70px;
+}
